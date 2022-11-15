@@ -27,6 +27,9 @@ public class FracCalc {
     //        
     // The function should return the result of the fraction after it has been calculated
     //      e.g. return ==> "1_1/4"
+
+
+
     public static String produceAnswer(String fraction)
     { 
         // TODO: Implement this function to produce the solution to the input
@@ -59,7 +62,7 @@ public class FracCalc {
                 numerator = "0";
                 denominator = "1";
             }
-        return "whole: " + whole + "\t" + "numerator: " + numerator + "\t" + "denominator: " + denominator;
+        return "whole:" + whole + " " + "numerator:" + numerator + " " + "denominator:" + denominator;
     }
 
     // TODO: Fill in the space below with any helper methods that you think you will need
